@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="bookmark"  href="MapleStory.gif" type="image/x-icon"/>
+	<link href="MapleStory.gif" rel="icon" mask="" sizes="any"/>
+	<link href="MapleStory.gif" rel="shortcut icon" type="image/x-icon"/>
+	<title>Central Control System</title>
+	<meta http-equiv="Content-Type" content="text/html; charset:utf-8" />
+        <meta content="width=device-width,user-scalable=no" name="viewport"> 
+        <meta http-equiv="Content-Language" content="zh-CN" />
+        <meta name="Author" content="剑胆丶倾心" />
+        <meta name="Copyright" content="YangTsing" />
+        <meta name="keywords" content="A股藏宝图|文件查询系统" />
+        <meta name="discription" content="中心程序1号机" />
+	<link type="text/css" rel="stylesheet" href="Source\basic.css" />
+	<script type="text/javascript" src="Source\basic.js"></script>
+	<script type="text/javascript" src="Source\navigation.js"></script>
+	<script type="text/javascript" src="Source\MapleStory.js"></script>
+	<script type="text/javascript" src="Source\Wuyuechunqiu.js"></script>
+</head>
+<body>
+	<div id="maxContainer" class="1">
+		<div id="Head">
+				<button value="1" class="libutton" onClick="libuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">题材研究</button>
+				<button value="2" class="libutton" onClick="libuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">资料查阅</button>
+				<button value="3" class="libutton" onClick="libuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">常用工具</button>
+				<button value="4" class="libutton" onClick="libuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">链接合集</button>
+				<button value="5" class="libutton" onClick="libuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">作品收录</button>
+				<audio id="music" type="audio/mpeg" class="libutton" src="Source/music/Heroes-Of-Maple-Theme-Piano.mp3" autoplay="autoplay" loop="loop"></audio>
+				<button id="audio_play" class="libutton" onClick="audio_play()" onmouseover="changeColor()" onmouseout="ColorBack()" style="width: 50px;"><img id="audio_play_img" class="liimg" src="Source/pictures/icon/Music.png" onmouseover="changeColor()"/></button>
+				<button id="audio_pause" class="libutton" onClick="audio_pause()" onmouseover="changeColor()" onmouseout="ColorBack()" style="width: 50px;"><img id="audio_pause_img" class="liimg" src="Source/pictures/icon/Close.png" onmouseover="changeColor()"/></button>
+				<button id="audio_recovery" class="libutton" onClick="audio_recovery()" onmouseover="changeColor()" onmouseout="ColorBack()" style="width: 50px;"><img id="audio_recovery_img" class="liimg" src="Source/pictures/icon/Recovery.png" onmouseover="changeColor()"/></button>
+				<button value="6" class="settingbutton" onClick="libuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">黑</button>
+		</div>
+		<div id="menu">
+			<!--此文本无用，仅用来控制首行按钮与顶部边界的距离-->
+			<p style="line-height: 50px">测试内容</p>
+			<button class="squarebutton" value="1" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">A</button>
+			<button class="squarebutton" value="2" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">B</button>
+			<button class="squarebutton" value="3" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">C</button>
+			<button class="squarebutton" value="4" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">D</button>
+			<button class="squarebutton" value="5" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">E</button>
+			<button class="squarebutton" value="6" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">F</button>
+			<button class="squarebutton" value="7" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">G</button>
+			<button class="squarebutton" value="8" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">H</button>
+			<button class="squarebutton" value="9" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">I</button>
+			<button class="squarebutton" value="10" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">J</button>
+			<button class="squarebutton" value="11" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">K</button>
+			<button class="squarebutton" value="12" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">L</button>
+			<button class="squarebutton" value="13" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">M</button>
+			<button class="squarebutton" value="14" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">N</button>
+			<button class="squarebutton" value="15" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">O</button>
+			<button class="squarebutton" value="16" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">P</button>
+			<button class="squarebutton" value="17" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">Q</button>
+			<button class="squarebutton" value="18" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">R</button>
+			<button class="squarebutton" value="19" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">S</button>
+			<button class="squarebutton" value="20" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">T</button>
+			<button class="squarebutton" value="21" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">U</button>
+			<button class="squarebutton" value="22" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">V</button>
+			<button class="squarebutton" value="23" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">W</button>
+			<button class="squarebutton" value="24" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">X</button>
+			<button class="squarebutton" value="25" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">Y</button>
+			<button class="squarebutton" value="26" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">Z</button>
+			<button class="squarebutton" value="27" onClick="squarebuttonclick()" onmouseover="changeColor()" onmouseout="ColorBack()">#</button>
+		</div>
+	</div>
+</body>
+</html>
